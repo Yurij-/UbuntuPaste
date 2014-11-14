@@ -14,10 +14,11 @@ class RequestURL():
     The class to send request url
     and receive response
     """
-    def __init__(self, server, content):
+    def __init__(self, content, server="ubuntu"):
         """
         init function
-        param: CONTENT - map from ARGKEYS to content
+        param: server - the server you choose
+               content - the content data structure
         """
         if (server not in REQUEST_URL.keys()):
             print("No such service " + server)
