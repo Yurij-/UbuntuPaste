@@ -22,7 +22,9 @@ class RequestURL():
         """
         if (server not in REQUEST_URL.keys()):
             print("No such service " + server)
-            return
+            exit()
+
+        self.server = REQUEST_URL[server]
         self.url = REQUEST_URL[server]
         self.content = content
 
@@ -32,7 +34,11 @@ class RequestURL():
         send request to server
         return: request object from server
         """
-        self.resp = requests.post(self.server, data = self.content)
+        try:
+            self.resp = requests.post(self.server, data = self.content)
+        except Exception as e:
+            print(e)
+            print("Error posting to the server, please try again later.")
 
         return self.resp
 
@@ -43,7 +49,7 @@ def test():
     """
     content = {"poster":"hello",
                "syntax":"python",
-               "content":"import os\n\nos.listdir('.')\n"}
+               "content":"import os\n\nos.listdir('.')\n"*100}
 
     req = RequestURL(content)
     resp = req.send()
