@@ -1,0 +1,8 @@
+
+* TODO List [/]:
+
+- [ ] Make Python Egg
+- [ ] Find if Unicode causes any problem
+- [ ] Option to open in browser
+- [ ] Add version number
+
