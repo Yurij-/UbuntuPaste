@@ -9,13 +9,14 @@ files a lot easy when you're on the terminal.
 
 ## Usage:
 
+```
 <up> [OPTION]... FILENAME...
 
 Options:
   -h, --help            show this help message and exit
   -t TYPE, --type=TYPE  specify type of target file
   -b, --browser         open response url in browser
-
+```
 
 ## Install:
 
