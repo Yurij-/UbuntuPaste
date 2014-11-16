@@ -1,8 +1,12 @@
 
-* TODO List [/]:
+* TODO List [2/9]:
 
-- [ ] Make Python Egg
+- [X] A friendly commandline interface
 - [ ] Find if Unicode causes any problem
 - [ ] Option to open in browser
 - [ ] Add version number
-
+- [X] Auto recognize file suffix
+- [ ] Make Python Egg
+- [ ] Escape the input file (Is it needed for requests library?)
+- [ ] Encoding problem?
+- [ ] A more friendly commandline interface (How?)
