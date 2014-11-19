@@ -1,1 +1,12 @@
-../ubuntupaste/ubuntupaste.py
+#!/usr/bin/env python
+# -*- coding:utf-8 -*-
+#
+# Main script
+#
+# Author: Kevin Hu
+
+
+from ubuntupaste.ubuntupaste import *
+
+
+Ubuntupaste().run()
