@@ -118,6 +118,17 @@ def main():
 
     print(resp.url)
 
+    # Option to open the browser
+    if (resp.url != None):
+        if (options.browser):
+            try:
+                import webbrowser
+                webbrowser.open(resp.url)
+            except Exception as e:
+                print(e)
+                print("Could not open browser. Please copy and paste in browser")
+                exit()
+
     
 
 # run main function

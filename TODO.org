@@ -1,12 +1,12 @@
 
-* TODO List [2/9]:
+* TODO List [5/9]:
 
 - [X] A friendly commandline interface
-- [ ] Find if Unicode causes any problem
-- [ ] Option to open in browser
+- [X] Find if Unicode causes any problem (Looks it doesn't cause problems, YET)
+- [X] Option to open in browser
 - [ ] Add version number
 - [X] Auto recognize file suffix
 - [ ] Make Python Egg
-- [ ] Escape the input file (Is it needed for requests library?)
-- [ ] Encoding problem?
+- [X] Encoding problem?
 - [ ] A more friendly commandline interface (How?)
+- [ ] Escape the input file (Is it needed for requests library?)
