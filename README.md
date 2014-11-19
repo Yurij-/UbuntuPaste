@@ -1,7 +1,7 @@
 UbuntuPaste
 ===========
 
-A command line interface for [Ubuntupaste](http://paste.ubuntu.com)
+A command line interface for [Ubuntu Pastebin](http://paste.ubuntu.com)
 
 This is a very small gadget I developed for myself when I'm
 working under SSH on the server. This made sharing small config
