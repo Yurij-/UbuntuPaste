@@ -94,7 +94,7 @@ class Ubuntupaste():
                     totalsize += os.stat(g).st_size
     
                     # protector for file size
-                    if totalsize > TOTAL_SIZE:
+                    if totalsize > TOTALSIZE:
                         print("Over size limit, please send one at a time")
                         exit()
     
