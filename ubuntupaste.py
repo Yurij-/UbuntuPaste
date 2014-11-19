@@ -7,7 +7,6 @@
 
 
 import os
-import sys
 import yaml
 import glob
 from optparse import OptionParser
@@ -104,16 +103,15 @@ def main():
                 print("Error opening file")
         # protector if overall size too large
 
-    print(allfiles)
-    print(filetype)
-    print(totalsize)
+    # DEBUG
+    # print(allfiles)
+    # print(filetype)
+    # print(totalsize)
 
     # send the request
     content = {"poster": os.environ["USER"],
                "syntax": filetype,
                "content": ('\n' * 8).join(allfiles)}
-
-    print content
 
     req = RequestURL(content)
     resp = req.send()
