@@ -20,7 +20,7 @@ Options:
 
 ## Install:
 
-To be released as python package
+sudo pip install ubuntupaste
 
 ## TODO:
 
