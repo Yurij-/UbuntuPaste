@@ -7,7 +7,6 @@
 
 
 import os
-import yaml
 import glob
 from optparse import OptionParser
 
