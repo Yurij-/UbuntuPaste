@@ -17,9 +17,10 @@ setup(name = "UbuntuPaste",
       packages = ["ubuntupaste"],
       package_dir = {"ubuntupaste": "ubuntupaste"},
       scripts = ["bin/up"],
+      platforms = ["Linux"],
       classifiers = ["Development Status :: 3 - Alpha",
                      "Topic :: Utilities",
                      "Environment :: Console",
-                     "License :: OSI Approved :: GPL2",
-                     ]
+                     "License :: OSI Approved :: GNU Lesser General Public License v2 (LGPLv2)"
+                    ]
 )
