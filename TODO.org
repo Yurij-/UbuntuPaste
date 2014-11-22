@@ -1,12 +1,19 @@
 
-* TODO List [5/9]:
+* TODO Version 1 List [9/9]:
 
 - [X] A friendly commandline interface
 - [X] Find if Unicode causes any problem (Looks it doesn't cause problems, YET)
 - [X] Option to open in browser
-- [ ] Add version number
+- [X] Add version number
 - [X] Auto recognize file suffix
-- [ ] Make Python Egg
+- [X] Make Python Egg
 - [X] Encoding problem?
-- [ ] A more friendly commandline interface (How?)
-- [ ] Escape the input file (Is it needed for requests library?)
+- [X] A more friendly commandline interface (How?)
+- [X] Escape the input file (Is it needed for requests library?)
+
+
+* TODO Version 2 List [/]:
+
+- [ ] Support Suse Pastebin?
+- [ ] Support Pastebin? (http://pastebin.com/)
+- [ ] A more friendly CLI interface?
